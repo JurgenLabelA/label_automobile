@@ -1,4 +1,5 @@
 from sqlalchemy import Column, String, Boolean
+from sqlalchemy.orm import relationship
 from sqlalchemy.ext.hybrid import hybrid_property
 
 from label_automobile.models.meta import Base, BaseModel
